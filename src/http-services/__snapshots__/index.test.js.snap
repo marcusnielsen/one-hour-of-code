@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`http service 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "__v": 0,
+      "_id": Object {
+        "$oid": "550970aa98ab571100b635a9",
+      },
+      "category": "icon",
+      "created": Object {
+        "$date": "2015-03-18T12:33:46.491Z",
+      },
+      "elements": Array [
+        Object {
+          "elementType": "icon",
+          "reference": "cursor_outline",
+        },
+      ],
+      "name": "cursor_outline",
+      "picture": "cursor_outline.svg",
+      "slug": "cursor_outline",
+      "tags": Array [],
+      "visibility": Array [
+        "global",
+      ],
+    },
+    Object {
+      "__v": 0,
+      "_id": Object {
+        "$oid": "594a18feeb5a0e0011b55a30",
+      },
+      "category": "symbol",
+      "created": Object {
+        "$date": "2017-06-21T06:58:06.147Z",
+      },
+      "createdByUser": "534fd70294b7ec0b00000002",
+      "elements": Array [
+        Object {
+          "data": Object {
+            "text": "Company page 1",
+          },
+          "elementType": "text",
+          "id": "text-1674",
+          "styles": Object {
+            "font-family": "weld-regular",
+            "font-size": "14px",
+            "font-weight": "bold",
+            "height": "25px",
+            "left": "34.55000000000001%",
+            "text-align": "left",
+            "top": "115px",
+            "width": "18.954272460937375%",
+            "z-index": 40,
+          },
+        },
+        Object {
+          "data": Object {
+            "text": "Company page 2",
+          },
+          "elementType": "text",
+          "id": "text-1677",
+          "styles": Object {
+            "font-family": "weld-regular",
+            "font-size": "14px",
+            "font-weight": "bold",
+            "height": "25px",
+            "left": "56.55000000000001%",
+            "text-align": "left",
+            "top": "115px",
+            "width": "18.954272460937375%",
+            "z-index": 41,
+          },
+        },
+      ],
+      "name": "Toms template headers",
+      "slug": "toms-template-headers",
+      "tags": Array [],
+      "visibility": Array [],
+    },
+  ],
+  "elements": Array [
+    Object {
+      "__v": 10,
+      "_id": Object {
+        "$oid": "55d74825d1fbc111005d748d",
+      },
+      "category": "object",
+      "created": Object {
+        "$date": "2015-08-21T15:47:49.000Z",
+      },
+      "createdByUser": "543bb0c03fd6190b00000002",
+      "css": ".minutemailer {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.minutemailer input[type=\\"email\\"], .minutemailer button[type=\\"submit\\"] {
+	width: 100%;
+	max-width: 300px;
+	margin: 0 10px;
+	margin-bottom: 10px;
+	height: 40px;
+}
+
+.minutemailer button[type=\\"submit\\"] {
+	background-color: {{button-color}};
+	border: none;
+}
+.minutemailer button[type=\\"submit\\"]:hover {
+	background-color: {{button-color}};
+	cursor: pointer;
+}
+
+.minutemailer input[type=\\"email\\"] {
+	color: #000;
+}
+
+.weld-canvas-container.edit-mode .minutemailer button[type=\\"submit\\"] {
+	pointer-events: none;
+}",
+      "data": Object {
+        "button-color": "#6ec8dc",
+        "button-text": "Subscribe",
+        "field-text": "Your email",
+        "minutemailer-id": "",
+      },
+      "description": "Let users subscribe to your Minutemailer newsletter (requires account at minutemailer.com)",
+      "events": Array [],
+      "html": "<form action=\\"https://minutemailer.com/subscribe/{{minutemailer-id}}\\" method=\\"post\\" class=\\"minutemailer\\"><input type=\\"email\\" name=\\"email\\" placeholder=\\"{{field-text}}\\"><button type=\\"submit\\">{{button-text}}</button></form>",
+      "includes": Array [],
+      "name": "Minutemailer",
+      "picture": "minutemailer.png",
+      "slug": "minutemailer",
+      "tags": Array [
+        "subscription",
+        "email",
+        "mailchimp",
+        "form",
+        "not-inline-svg",
+        "popular",
+      ],
+      "visibility": Array [
+        "global",
+      ],
+    },
+    Object {
+      "__v": 14,
+      "_id": Object {
+        "$oid": "55e964f9b439241100bedc3f",
+      },
+      "category": "object",
+      "created": Object {
+        "$date": "2015-09-04T09:31:37.371Z",
+      },
+      "createdByUser": "534fd70294b7ec0b00000002",
+      "css": ".weld-canvas-container.edit-mode .soundcloud iframe {pointer-events: none;}",
+      "data": Object {
+        "autoplay": "false",
+        "trackId": 217890037,
+      },
+      "description": "Embed a SoundCloud audio player.",
+      "events": Array [],
+      "html": "<iframe width=\\"100%\\" height=\\"100%\\" scrolling=\\"no\\" frameborder=\\"no\\" src=\\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{trackId}}&amp;auto_play={{autoplay}}&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true\\"></iframe>",
+      "includes": Array [],
+      "name": "SoundCloud",
+      "picture": "soundcloud_object2.svg",
+      "slug": "soundcloud",
+      "tags": Array [
+        "music",
+        "audio",
+        "sound",
+        "not-inline-svg",
+        "media",
+      ],
+      "visibility": Array [
+        "global",
+      ],
+    },
+  ],
+}
+`;
